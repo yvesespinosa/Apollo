@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3FEE8ADBCD8923DB5CD6F1 /* Pods_Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29D7BC804BA46E4A5FADC2 /* Pods_Apollo.framework */; };
 		5F1156411FEE208E00D2E460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1156401FEE208E00D2E460 /* AppDelegate.swift */; };
-		5F1156431FEE208E00D2E460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1156421FEE208E00D2E460 /* ViewController.swift */; };
+		5F1156431FEE208E00D2E460 /* RecentTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1156421FEE208E00D2E460 /* RecentTableVC.swift */; };
 		5F1156461FEE208E00D2E460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1156441FEE208E00D2E460 /* Main.storyboard */; };
 		5F1156481FEE208E00D2E460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1156471FEE208E00D2E460 /* Assets.xcassets */; };
 		5F11564B1FEE208F00D2E460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1156491FEE208F00D2E460 /* LaunchScreen.storyboard */; };
+		5F1156531FEE215300D2E460 /* ConsultationTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1156521FEE215300D2E460 /* ConsultationTableVC.swift */; };
+		5F1156591FEE2B6400D2E460 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1156581FEE2B6400D2E460 /* Patient.swift */; };
+		5F11565B1FEE2B7100D2E460 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11565A1FEE2B7100D2E460 /* Record.swift */; };
+		5F11565D1FEE2C6800D2E460 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11565C1FEE2C6800D2E460 /* SwipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D8017919D059201A5F42DF6 /* Pods-Apollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Apollo/Pods-Apollo.release.xcconfig"; sourceTree = "<group>"; };
+		5A29D7BC804BA46E4A5FADC2 /* Pods_Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F11563D1FEE208E00D2E460 /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1156401FEE208E00D2E460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F1156421FEE208E00D2E460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F1156421FEE208E00D2E460 /* RecentTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableVC.swift; sourceTree = "<group>"; };
 		5F1156451FEE208E00D2E460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F1156471FEE208E00D2E460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F11564A1FEE208F00D2E460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F11564C1FEE208F00D2E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1156521FEE215300D2E460 /* ConsultationTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationTableVC.swift; sourceTree = "<group>"; };
+		5F1156581FEE2B6400D2E460 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		5F11565A1FEE2B7100D2E460 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		5F11565C1FEE2C6800D2E460 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		FB820A76336D4D60D98FBC54 /* Pods-Apollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apollo/Pods-Apollo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3FEE8ADBCD8923DB5CD6F1 /* Pods_Apollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				5F11563F1FEE208E00D2E460 /* Apollo */,
 				5F11563E1FEE208E00D2E460 /* Products */,
+				91000A32666AFEB3BC3909CC /* Pods */,
+				F4A40F11B7E161C74957059A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,67 @@
 		5F11563F1FEE208E00D2E460 /* Apollo */ = {
 			isa = PBXGroup;
 			children = (
-				5F1156401FEE208E00D2E460 /* AppDelegate.swift */,
-				5F1156421FEE208E00D2E460 /* ViewController.swift */,
+				5F1156571FEE232F00D2E460 /* Models */,
+				5F1156541FEE216400D2E460 /* Controllers */,
+				5F1156551FEE216F00D2E460 /* Views */,
+				5F1156561FEE217600D2E460 /* Supporting Files */,
+			);
+			path = Apollo;
+			sourceTree = "<group>";
+		};
+		5F1156541FEE216400D2E460 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F1156421FEE208E00D2E460 /* RecentTableVC.swift */,
+				5F1156521FEE215300D2E460 /* ConsultationTableVC.swift */,
+				5F11565C1FEE2C6800D2E460 /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F1156551FEE216F00D2E460 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				5F1156441FEE208E00D2E460 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F1156561FEE217600D2E460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F1156401FEE208E00D2E460 /* AppDelegate.swift */,
 				5F1156471FEE208E00D2E460 /* Assets.xcassets */,
 				5F1156491FEE208F00D2E460 /* LaunchScreen.storyboard */,
 				5F11564C1FEE208F00D2E460 /* Info.plist */,
 			);
-			path = Apollo;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F1156571FEE232F00D2E460 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F1156581FEE2B6400D2E460 /* Patient.swift */,
+				5F11565A1FEE2B7100D2E460 /* Record.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91000A32666AFEB3BC3909CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB820A76336D4D60D98FBC54 /* Pods-Apollo.debug.xcconfig */,
+				4D8017919D059201A5F42DF6 /* Pods-Apollo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4A40F11B7E161C74957059A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A29D7BC804BA46E4A5FADC2 /* Pods_Apollo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F11564F1FEE208F00D2E460 /* Build configuration list for PBXNativeTarget "Apollo" */;
 			buildPhases = (
+				8BBAB58640ECEFE9718D66FE /* [CP] Check Pods Manifest.lock */,
 				5F1156391FEE208E00D2E460 /* Sources */,
 				5F11563A1FEE208E00D2E460 /* Frameworks */,
 				5F11563B1FEE208E00D2E460 /* Resources */,
+				8541C7A4EB737586E3E188B9 /* [CP] Embed Pods Frameworks */,
+				2577361343E6D74AAC17AB06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +202,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2577361343E6D74AAC17AB06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8541C7A4EB737586E3E188B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBAB58640ECEFE9718D66FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apollo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F1156391FEE208E00D2E460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1156431FEE208E00D2E460 /* ViewController.swift in Sources */,
+				5F1156431FEE208E00D2E460 /* RecentTableVC.swift in Sources */,
+				5F1156591FEE2B6400D2E460 /* Patient.swift in Sources */,
+				5F11565B1FEE2B7100D2E460 /* Record.swift in Sources */,
+				5F1156531FEE215300D2E460 /* ConsultationTableVC.swift in Sources */,
+				5F11565D1FEE2C6800D2E460 /* SwipeTableViewController.swift in Sources */,
 				5F1156411FEE208E00D2E460 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +405,12 @@
 		};
 		5F1156501FEE208F00D2E460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB820A76336D4D60D98FBC54 /* Pods-Apollo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J5Y7QVME4M;
-				INFOPLIST_FILE = Apollo/Info.plist;
+				DEVELOPMENT_TEAM = W7VSB4T8S8;
+				INFOPLIST_FILE = "$(SRCROOT)/Apollo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yvesespinosa.Apollo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +421,12 @@
 		};
 		5F1156511FEE208F00D2E460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8017919D059201A5F42DF6 /* Pods-Apollo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J5Y7QVME4M;
-				INFOPLIST_FILE = Apollo/Info.plist;
+				DEVELOPMENT_TEAM = W7VSB4T8S8;
+				INFOPLIST_FILE = "$(SRCROOT)/Apollo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yvesespinosa.Apollo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
